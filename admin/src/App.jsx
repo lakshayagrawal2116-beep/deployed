@@ -8,7 +8,7 @@ import Orders from './pages/Orders/Orders'
 import { ToastContainer } from 'react-toastify';
 import AddCoupon from './pages/AddCoupon/AddCoupon'
 const App = () => {
-  const url="https://food-backend-9atw.onrender.com"
+  const url="https://backend-folder-pgzv.onrender.com/"
   return (
     <div>
       <ToastContainer/>
