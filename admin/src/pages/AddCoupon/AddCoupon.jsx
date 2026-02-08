@@ -20,7 +20,7 @@ const AddCoupon = () => {
   const createCoupon = async () => {
     try {
       const res = await axios.post(
-        "http://localhost:4000/api/coupon/create",
+        "https://backend-folder-pgzv.onrender.com/",
         coupon
       );
 
