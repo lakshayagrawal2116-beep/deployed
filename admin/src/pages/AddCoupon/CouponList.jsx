@@ -7,7 +7,7 @@ const CouponList = () => {
   const fetchCoupons = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:4000/api/coupon/list"
+        "https://backend-folder-pgzv.onrender.com/"
       );
       if (res.data.success) {
         setCoupons(res.data.data);
