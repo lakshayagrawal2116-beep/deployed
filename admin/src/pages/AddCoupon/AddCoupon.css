@@ -1,0 +1,20 @@
+.coupon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* margin-left: 20px; */
+    
+}
+.coupon .coupon-options{
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 15rem ;
+    margin-top: 10px;
+    
+    
+}
+
+.coupon button{
+    background-color: black;
+    color: white;
+}

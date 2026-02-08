@@ -1,0 +1,95 @@
+/* Page container */
+.coupon-container {
+    padding: 20px;
+    background: #f9fafb;
+    min-height: 100vh;
+    margin-top: 20px;
+}
+
+.coupon-container h2 {
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Empty state */
+.empty-text {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Table wrapper for responsiveness */
+.table-wrapper {
+    overflow-x: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Table */
+.coupon-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+/* Header */
+.coupon-table thead {
+    background: #111827;
+}
+
+.coupon-table th {
+    padding: 14px;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* Rows */
+.coupon-table td {
+    padding: 12px 14px;
+    font-size: 14px;
+    color: #111827;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Zebra striping */
+.coupon-table tbody tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+/* Hover */
+.coupon-table tbody tr:hover {
+    background: #eef2ff;
+}
+
+/* Coupon code highlight */
+.coupon-table td.code {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Status badges */
+.status {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.status.active {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.status.inactive {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+/* Type text */
+.type {
+    text-transform: capitalize;
+}
