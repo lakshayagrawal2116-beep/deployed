@@ -7,7 +7,7 @@ const StoreContextProvider =(props)=>{
     const [search, setSearch] = useState("");
 
 
-    const url="https://food-backend-9atw.onrender.com"
+    const url="https://backend-folder-pgzv.onrender.com/"
     const [token,SetToken]= useState("");
     const [food_list,SetFoodList] =useState([]);
 
